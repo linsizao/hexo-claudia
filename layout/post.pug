@@ -21,7 +21,7 @@ block content
                 header.my-4
                     if page.tags && page.tags.length > 0
                         each tag in page.tags.toArray()
-                            a(href= url_for(`/tags/${tag.name}`))
+                            a(href= url_for(`/Tags/${tag.name}`))
                                 i.tag.post-item-tag= tag.name
                 h1.mt-0.mb-1.is-family-serif#postTitle= page.title
                 if page.date

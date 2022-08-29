@@ -7451,7 +7451,7 @@ label.panel-block:hover {
   }
   .column.is-9, .column.is-9-tablet {
     flex: none;
-    width: 75%;
+    width: 80%;
   }
   .column.is-offset-9, .column.is-offset-9-tablet {
     margin-left: 75%;

@@ -13,6 +13,10 @@ header.header-widget.is-flex-shrink-0.is-hidden-mobile
                 each url, label in theme.menu
                     h3.is-inline-block
                         a(href= url_for(url))= label && _p(label.toLowerCase())
+
+            h3.is-inline-block
+              a(href= url_for('https://www.yuque.com/books/share/db2f35bc-cc12-4e56-acb3-4e4e00fea626?# 《TIL》') target="_blank")= "til"
+
 header.is-flex.header-widget.is-flex-shrink-0.is-align-items-center.is-justify-content-center.is-hidden-tablet
         if theme.menu
             each url, label in theme.menu

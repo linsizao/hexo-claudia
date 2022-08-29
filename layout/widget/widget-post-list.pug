@@ -20,7 +20,7 @@ article.post-container.is-flex.is-justify-content-center.section.container.is-ma
                                 if post.tags && post.tags.length > 0
                                     header
                                             each tag in post.tags.toArray()
-                                                a(href= url_for(`/tags/${tag.name}`))
+                                                a(href= url_for(`/Tags/${tag.name}`))
                                                     i.tag.post-item-tag= tag.name
                                 if post.title
                                     h2.mt-4.mb-0.is-family-serif

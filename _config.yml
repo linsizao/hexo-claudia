@@ -3,10 +3,10 @@ menu:
   Home: /
   About: /about
   Archive: /archives
-  Tags: /tags/Vue
+  Tags: /Tags/Vue
 
 widgets:
-  - tag
+  - Tags
   - archive
   - recent_posts
   - category
